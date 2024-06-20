@@ -6,7 +6,7 @@
 .part{
     width:100%;
     height: 700px;
-    background-image: url(../HW/Images/background.jpeg);
+    background-image: url(../HW/Images/background.webp);
 }
 nav{
     height:100px;
@@ -48,14 +48,15 @@ figure img{
 .part1{
     width:100%;
     height: 350px;
-    background-image: url(../HW/Images/lightbackground.jpg)
+    background-image: url(../HW/Images/blackbackground.webp)
 }
 
 .middle{
     width:1170px;
     text-align: center;
-    
     color:white;
+    
+   
 }
 #set{
    text-align: center;
@@ -68,8 +69,8 @@ figure img{
 }
 .part2{
     width:100%;
-    height: 700px;
-    background-image: url(../HW/Images/background.jpeg);
+    height: 670px;
+    background-image: url(../HW/Images/background.webp);
 }
 .subsection1 {
     float:left;
@@ -113,21 +114,73 @@ figure img{
 }
 .part3{
     width:100%;
-    height: 700px;
-    background-image: url(../HW/Images/background.jpeg);
+    height: 600px;
+    background-image: url(../HW/Images/background.webp);
 }
-.aeroplane{
-    height: 200px;
-    width: 200px;
-    
-}
-.aeroplane img{
-    
+.aeroplane {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
-  width: 150px;
- height: 150px;
- position: relative;
- left: 500px;
- top:150px;
+  .aeroplane img {
+    width: 150px;
+    height: 150px;
+    margin:0px;
+  }
+  
+  .aeroplane h2 {
+    text-align: center;
+    font-size: 75px;
+    margin:0px;
+  }
+  .text-container {
+    text-align: center;
+    font-size: 16px;
+    
+  }
+.part4{
+    width:100%;
+    height: 670px;
+    background-image: url(../HW/Images/background.webp);
+}
+.sub1 img {
+    width:580px;
+    height:650px;
+    float:left;
+}
+.sub2{
+    width:550px;
+    height: 650px;
+    float:right;
+    display: flex;
+    flex-direction: column;
+   
+}
+.sub2 img{
+width:550px;
+ height:280px;
+ float:right;
+}
+.sub3{
+    height:450px;
+    width:590px;
+}
+.sub3 p{
+    text-align: justify;
+    margin:10px 0px 0px 30px;
+}
+.sub4{
+    height:200px;
+    width:250px;
+    float:left;
+}
+.sub4 h2{
+    font-size: 40px;
+    
+    margin:0px 0px 0px 20px;
     
 }
+
