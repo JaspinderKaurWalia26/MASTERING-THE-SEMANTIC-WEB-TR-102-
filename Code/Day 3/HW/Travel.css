@@ -187,6 +187,7 @@ width:550px;
     width:100%;
     height:650px;
     background-image: url(../HW/Images/blackbackground.webp);
+    
 }
 .inner1{
     width:530px;
@@ -209,6 +210,57 @@ width:550px;
     float:right;
     margin:100px 0px 0px 0px ;
 }
+.part6{
+    width:100%;
+    height: 600px;
+    background-image: url(../HW/Images/background.webp);
+    
+}
+.slab{
+    margin:0px;
+    width:750px;
+    height:580px;
+    float:left;  
+    padding:100px 0px 0px 0px;
+    margin:0px;
+}
+.slab h2{
+margin:0px;
+font-size: 80px;
+}
+
+ .line{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+   width:88%;
+   
+}
+
+
+.plus {
+    float: right;
+    margin: 10px;
+    position: relative;
+    bottom: 45px;
+    
+}
+.line1{
+    border-bottom: 2px solid black;
+    width:88%;
+}
+.slab2 img{
+    margin:0px;
+    float:right;
+    width:380px;
+    height:480px;
+    position: relative;
+    top:73px;
+   
+}
+figure{
+    margin:0px;
+}
+   
 .part8{
     width:100%;
     height: 670px;
@@ -217,9 +269,8 @@ width:550px;
 .fragment{
     width:550px;
     height:500px;
-    
     float:left;
-    padding:70px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
 
 }
 .fragment h3{
@@ -261,8 +312,8 @@ width:550px;
     float:right;
     width: 600px;
     height:550px;
+    padding:10px 0px 0px 0px;
     
-    padding:70px 0px 0px 0px;
 }
 .frag img {
 width:600px;
@@ -300,4 +351,9 @@ float:right;
     margin:0px;
     
 }
+
+
+
+
+
 
