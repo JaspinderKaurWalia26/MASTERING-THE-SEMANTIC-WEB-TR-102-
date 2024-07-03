@@ -186,3 +186,14 @@ section h2 {
         width: 100%;
     }
 }
+.back-to-main {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .back-to-main:hover {
+    text-decoration: underline;
+  }
