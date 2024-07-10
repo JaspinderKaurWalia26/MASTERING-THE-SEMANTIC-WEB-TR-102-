@@ -19,10 +19,24 @@
 
 :Book2 a bibo:Book;
     dc:title "The merchant of Venice"^^xsd:string;
-    dc:publisher "Marx"^^xsd:string;
     dc:creator :WilliamShakespeare;
     dc:date "1603-06-22"^^xsd:date;
-    bibo:reviewedBy :Carl;
+    bibo:reviewedBy "Carl"^^xsd:string;
+    dc:language :English.
+
+:Book3 a bibo:Book;
+    dc:title "Aazadi"^^xsd:string;
+    dc:creator "AditiRoy"^^xsd:string;
+    dc:date "1603-07-23"^^xsd:date;
+    bibo:reviewedBy "Carlin"^^xsd:string;
+    dc:language :English.
+
+
+:Book4 a bibo:Book;
+    dc:title "powerful"^^xsd:string;
+    dc:publisher "Marx"^^xsd:string;
+    dc:creator "Nirupama"^^xsd:string;
+    dc:date "1603-06-25"^^xsd:date;
     dc:language :English.
 
 :Carl a foaf:Person.
